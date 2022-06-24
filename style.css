@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.wrapper {
+  height: 100vh;
+  background: #000;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.portrait {
+  font-size: 10px;
+  line-height: 10px;
+  background: url('DSC_7829.jpg') fixed center no-repeat;
+  background-size: contain;
+}
+
+/* This pat is important for the feature itself */
+.portrait {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255,255,255,.1);
+}
