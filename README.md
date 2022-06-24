@@ -10,3 +10,5 @@ Creating text a portrait using pure css and html
 ## Live link
 
 https://peter-kimanzi.github.io/css-text-portrait/
+
+## screenshots
